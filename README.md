@@ -1,7 +1,6 @@
 # MLA0104_AIES
 
-EXPERIMENT NO:1 
-Breadth-First Search (BFS)
+EXPERIMENT NO:1 (Breadth-First Search)
 
 1. Create an empty Queue Q.
 2. Create an empty Set Visited.
@@ -21,8 +20,7 @@ Breadth-First Search (BFS)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-EXPERIMENT NO:2
-Depth-First Search (DFS)
+EXPERIMENT NO:2 (Depth-First Search)
 
 Algorithm DFS(Graph, Node, Visited)
 
