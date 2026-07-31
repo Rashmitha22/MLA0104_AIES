@@ -1,4 +1,4 @@
-<img width="412" height="57" alt="image" src="https://github.com/user-attachments/assets/6f6f6881-74f6-4d20-a687-2af8db15c1fb" /># MLA0104_AIES
+# MLA0104_AIES
 
 EXPERIMENT NO:1 (Breadth-First Search)
 
