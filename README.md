@@ -157,6 +157,7 @@ A_Star_Search(Graph, Heuristic, Start, Goal)
 
 5. While OPEN is not empty do
        Remove the node Current having the lowest f-value
+   
        If Current is already in CLOSED then
            Continue
        End If
@@ -179,9 +180,9 @@ A_Star_Search(Graph, Heuristic, Start, Goal)
 
    End While
 
-6. Return "No path found"
+7. Return "No path found"
 
-7. Stop
+8. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 6: Greedy Best-First Search in python.
@@ -199,6 +200,7 @@ Greedy_Best_First_Search(Graph, Heuristic, Start, Goal)
 5. While OPEN is not empty do
        Remove the node Current having the smallest heuristic value
        If Current is already Visited then
+   
            Continue
        End If
        Mark Current as Visited
@@ -219,9 +221,9 @@ Greedy_Best_First_Search(Graph, Heuristic, Start, Goal)
 
    End While
 
-6. Return "No path found"
+7. Return "No path found"
 
-7. Stop
+8. Stop
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -236,6 +238,7 @@ MINIMAX(Node, Depth, IsMaximizingPlayer)
 2. If IsMaximizingPlayer = True then
        BestValue = -∞
        For each Child of Node do
+   
            Value = MINIMAX(
                        Child,
                        Depth - 1,
@@ -245,9 +248,10 @@ MINIMAX(Node, Depth, IsMaximizingPlayer)
        End For
        Return BestValue
 
-3. Else
+4. Else
        BestValue = +∞
        For each Child of Node do
+   
            Value = MINIMAX(
                        Child,
                        Depth - 1,
@@ -257,7 +261,7 @@ MINIMAX(Node, Depth, IsMaximizingPlayer)
        End For
        Return BestValue
 
-4. Stop
+6. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 8: Alpha–Beta Pruning in python.
@@ -277,6 +281,7 @@ ALPHA_BETA(
 2. If IsMaximizingPlayer = True then
        BestValue = -∞
        For each Child of Node do
+   
            Value = ALPHA_BETA(
                        Child,
                        Depth - 1,
@@ -293,9 +298,10 @@ ALPHA_BETA(
        End For
        Return BestValue
 
-3. Else
+4. Else
        BestValue = +∞
        For each Child of Node do
+   
            Value = ALPHA_BETA(
                        Child,
                        Depth - 1,
@@ -312,7 +318,7 @@ ALPHA_BETA(
        End For
        Return BestValue
 
-4. Stop
+6. Stop
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -330,6 +336,7 @@ FORWARD_CHAINING(Facts, Rules, Goal)
            Let Rule be:
                Premises → Conclusion
            If all Premises are present in KnownFacts then
+   
                If Conclusion is not present in KnownFacts then
                    Add Conclusion to KnownFacts
                    Record the rule that produced Conclusion
@@ -343,9 +350,9 @@ FORWARD_CHAINING(Facts, Rules, Goal)
 
    End While
 
-4. Return False
+5. Return False
 
-5. Stop
+6. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 10: Backward Chaining in python.
@@ -444,6 +451,7 @@ SOLVE_CRYPTARITHMETIC(Word1, Word2, Result)
 
 6. For each assignment do
        If any leading letter is assigned 0 then
+   
            Skip this assignment
        End If
        Convert Word1 into a number using the assignment
@@ -455,13 +463,13 @@ SOLVE_CRYPTARITHMETIC(Word1, Word2, Result)
 
    End For
 
-7. If no solution is stored then
+8. If no solution is stored then
        Display "No solution exists"
    Else
        Display all valid solutions
    End If
 
-8. Stop
+9. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 13: Map Coloring Problem in python.
@@ -476,6 +484,7 @@ MAP_COLORING(Graph, Colors, VertexIndex)
 
 3. For each Color in Colors do
        If the Color is safe for the current vertex then
+   
            Assign Color to the current vertex
            If MAP_COLORING(
                   Graph,
@@ -490,7 +499,7 @@ MAP_COLORING(Graph, Colors, VertexIndex)
 
    End For
 
-4. Return False
+5. Return False
 
 2. Return TRUE
 
@@ -921,6 +930,7 @@ Add all initial facts to KNOWN_FACTS
 REPEAT
     NEW_FACT_ADDED = FALSE
     FOR every rule in the knowledge base
+    
         IF all conditions of the rule are in KNOWN_FACTS
            AND the conclusion is not already in KNOWN_FACTS
         THEN
@@ -945,6 +955,7 @@ IF the goal is a fact
     Display "Goal proved"
 ELSE
     Find a rule that can produce the goal
+    
     IF such a rule exists
         Check all conditions of the rule
         IF all conditions are proved
