@@ -16,6 +16,7 @@ Step 4: Insert Start into Q
 
 Step 5: While Q is not empty do
             Remove the front vertex V from Q
+            
             Print V
             For each adjacent vertex U of V do
                 If U is NOT VISITED then
@@ -39,6 +40,7 @@ Step 2: Call DFS(Start)
 
 Procedure DFS(Vertex)
     Mark Vertex as VISITED
+    
     Print Vertex
     For each adjacent vertex U of Vertex do
         If U is NOT VISITED then
@@ -68,6 +70,7 @@ Uniform_Cost_Search(Graph, Start, Goal)
 
 6. While PQ is not empty do
        Remove the node having the lowest cost from PQ
+   
        Let the node be Current
        Let its cost be CurrentCost
        If Current is already in Visited then
@@ -89,9 +92,9 @@ Uniform_Cost_Search(Graph, Start, Goal)
 
    End While
 
-7. Return No Path Found
+8. Return No Path Found
 
-8. Stop
+9. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 4: Water Jug Problem in python.
@@ -114,10 +117,12 @@ Water_Jug_Problem(Jug1Capacity, Jug2Capacity, Target)
        Remove the front state from Q
        Let the state be (X, Y)
        If X = Target OR Y = Target then
+   
            Construct the solution path using Parent
            Display the solution path
            Stop
        End If
+   
        Generate the following possible states:
            a. Fill Jug 1 completely
            b. Fill Jug 2 completely
@@ -134,9 +139,9 @@ Water_Jug_Problem(Jug1Capacity, Jug2Capacity, Target)
        End For
    End While
 
-8. Display "No solution exists"
+9. Display "No solution exists"
 
-9. Stop
+10. Stop
    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -374,6 +379,7 @@ BACKWARD_CHAINING(Goal, Facts, Rules, Visited)
 5. For each matching Rule do
        Assume RuleSatisfied = True
        For each Premise in Rule do
+   
            If BACKWARD_CHAINING(
                   Premise,
                   Facts,
@@ -390,9 +396,9 @@ BACKWARD_CHAINING(Goal, Facts, Rules, Visited)
 
    End For
 
-6. Return False
+7. Return False
 
-7. Stop
+8. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 11: N-Queen Problem in python.
@@ -407,13 +413,14 @@ N_QUEENS(Board, Row, N)
 
 2. For Column from 0 to N - 1 do
        If placing a queen at Board[Row][Column] is safe then
+   
            Place Queen at Board[Row][Column]
            Call N_QUEENS(Board, Row + 1, N)
            Remove Queen from Board[Row][Column]
            // Backtracking
        End If
    End For
-3. Return
+4. Return
 
 Algorithm IS_SAFE(Board, Row, Column, N)
 
