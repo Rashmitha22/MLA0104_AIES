@@ -834,14 +834,22 @@ Step 5: Stop
 Experiment No 28:Knowledge Representation using Prolog.
 
 1.Start the program.
+
 2.Define the rule that John likes every food.
+
 3.Define the food items (apple and vegetable).
+
 4.Define that John likes peanuts.
+
 5.Define that Mary eats everything Anil eats.
+
 6.Define that Anil eats peanuts and is alive.
-Define the rule that anything eaten by someone and not killed is food.
-Execute queries to verify the knowledge base.
-Stop.
+
+7.Define the rule that anything eaten by someone and not killed is food.
+
+8.Execute queries to verify the knowledge base.
+
+9.Stop.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
