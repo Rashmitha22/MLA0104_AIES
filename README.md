@@ -2,7 +2,7 @@
 
 EXPERIMENT NO:1 (Breadth-First Search)
 
-Algorithm Breadth_First_Search(G, Start)
+Breadth_First_Search(G, Start)
 
 Step 1: Create an empty Queue Q
 
@@ -29,7 +29,7 @@ Step 6: Stop
 
 EXPERIMENT NO:2 (Depth-First Search)
 
-Algorithm Depth_First_Search(G, Start)
+Depth_First_Search(G, Start)
 
 Step 1: Mark all vertices as NOT VISITED
 
@@ -52,7 +52,7 @@ Step 3: Stop
 
 EXPERIMENT NO 3: Uniform Cost Search (UCS)
 
-Algorithm Uniform_Cost_Search(Graph, Start, Goal)
+Uniform_Cost_Search(Graph, Start, Goal)
 
 1. Create an empty Priority Queue PQ
 
@@ -94,7 +94,7 @@ Algorithm Uniform_Cost_Search(Graph, Start, Goal)
 
 Experiment No 4: Water Jug Problem
 
-Algorithm Water_Jug_Problem(Jug1Capacity, Jug2Capacity, Target)
+Water_Jug_Problem(Jug1Capacity, Jug2Capacity, Target)
 
 1. Create an empty Queue Q
 
@@ -138,9 +138,9 @@ Algorithm Water_Jug_Problem(Jug1Capacity, Jug2Capacity, Target)
    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Experiment No-5: A* Search Algorithm
+Experiment No-5: A* Search Algorithm
 
-Algorithm A_Star_Search(Graph, Heuristic, Start, Goal)
+A_Star_Search(Graph, Heuristic, Start, Goal)
 
 1. Create an empty Priority Queue OPEN
 
@@ -184,7 +184,7 @@ Algorithm A_Star_Search(Graph, Heuristic, Start, Goal)
 
 Experiment No 6: Greedy Best-First Search
 
-Algorithm Greedy_Best_First_Search(Graph, Heuristic, Start, Goal)
+Greedy_Best_First_Search(Graph, Heuristic, Start, Goal)
 
 1. Create an empty Priority Queue OPEN
 
@@ -225,7 +225,7 @@ Algorithm Greedy_Best_First_Search(Graph, Heuristic, Start, Goal)
 
 Experiment No 7: Minimax Algorithm
 
-Algorithm MINIMAX(Node, Depth, IsMaximizingPlayer)
+MINIMAX(Node, Depth, IsMaximizingPlayer)
 
 1. If Depth = 0 OR Node is a terminal node then
        Return UtilityValue(Node)
@@ -260,7 +260,7 @@ Algorithm MINIMAX(Node, Depth, IsMaximizingPlayer)
 
 Experiment No 8: Alpha–Beta Pruning
 
-Algorithm ALPHA_BETA(
+ALPHA_BETA(
     Node,
     Depth,
     Alpha,
@@ -316,7 +316,7 @@ Algorithm ALPHA_BETA(
 
 Experiment No 9:Forward Chaining
 
-Algorithm FORWARD_CHAINING(Facts, Rules, Goal)
+FORWARD_CHAINING(Facts, Rules, Goal)
 
 1. Create a set KnownFacts containing all initial facts
 
@@ -347,7 +347,8 @@ Algorithm FORWARD_CHAINING(Facts, Rules, Goal)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 10: Backward Chaining
-Algorithm BACKWARD_CHAINING(Goal, Facts, Rules, Visited)
+
+BACKWARD_CHAINING(Goal, Facts, Rules, Visited)
 
 1. If Goal is present in Facts then
        Return True
@@ -387,7 +388,7 @@ Algorithm BACKWARD_CHAINING(Goal, Facts, Rules, Visited)
 
 Experiment No 11: N-Queen Problem
 
-Algorithm N_QUEENS(Board, Row, N)
+N_QUEENS(Board, Row, N)
 
 1. If Row = N then
        Display Board
@@ -423,7 +424,7 @@ Algorithm IS_SAFE(Board, Row, Column, N)
 
 Experiment No 12: Cryptarithmetic Problem
 
-Algorithm SOLVE_CRYPTARITHMETIC(Word1, Word2, Result)
+SOLVE_CRYPTARITHMETIC(Word1, Word2, Result)
 
 1. Convert Word1, Word2 and Result to uppercase
 
@@ -463,7 +464,7 @@ Algorithm SOLVE_CRYPTARITHMETIC(Word1, Word2, Result)
 
 Experiment No 13: Map Coloring Problem
 
-Algorithm MAP_COLORING(Graph, Colors, VertexIndex)
+MAP_COLORING(Graph, Colors, VertexIndex)
 
 1. If VertexIndex = NumberOfVertices then
        Return True
@@ -518,7 +519,7 @@ Experiment No 14:Sum of Integers from 1 to N using Recursion in Prolog
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Experiment No 15:Database with Name and Date of Birth using Prolog
 
-Algorithm NAME_DOB_DATABASE
+NAME_DOB_DATABASE
 
 Step 1: Store Name and DOB as facts.
 
@@ -536,7 +537,7 @@ Step 5: Stop.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Experiment No 16:Student–Teacher–Subject Code Database using Prolog
 
-Algorithm STUDENT_TEACHER_DATABASE
+STUDENT_TEACHER_DATABASE
 
 Step 1: Store Student Name, Teacher Name and Subject Code.
 
@@ -554,7 +555,7 @@ Step 5: Stop.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Experiment No 17:Planets Database using Prolog
 
-Algorithm PLANETS_DATABASE
+PLANETS_DATABASE
 
 Step 1: Store Planet Name, Position, Type and Number of Moons.
 
@@ -571,7 +572,7 @@ Step 5: Stop.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Experiment No 18:Towers of Hanoi using Prolog
 
-Algorithm TOWERS_OF_HANOI(N, Source, Auxiliary, Destination)
+TOWERS_OF_HANOI(N, Source, Auxiliary, Destination)
 
 Step 1: If N = 1 then
             Display "Move disk from Source to Destination"
@@ -599,7 +600,7 @@ Step 5: Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Experiment No 19:Bird Flying Database using Prolog
 
-Algorithm BIRD_DATABASE
+BIRD_DATABASE
 
 Step 1: Store birds that can fly.
 
@@ -623,7 +624,7 @@ Step 6: Stop.
 
 Experiment No 20:Family Tree using Prolog
 
-Algorithm FAMILY_TREE
+FAMILY_TREE
 
 Step 1: Store male and female persons.
 
@@ -652,7 +653,7 @@ Step 9: Stop.
 
 Experiment No 21:Disease-Based Diet Suggestion System using Prolog
 
-Algorithm DIET_SUGGESTION_SYSTEM
+DIET_SUGGESTION_SYSTEM
 
 Step 1: Store disease and recommended diet details.
 
@@ -672,7 +673,7 @@ Step 5: Stop.
 
 Experiment No 22:Monkey Banana Problem using Prolog
 
-Algorithm MONKEY_BANANA
+MONKEY_BANANA
 
 Step 1: Set the initial state:
         Monkey at door
@@ -702,7 +703,7 @@ Step 7: Stop.
 
 Experiment No 23:Fruit and Color Identification using Backtracking in Prolog
 
-Algorithm FRUIT_COLOR_BACKTRACKING
+FRUIT_COLOR_BACKTRACKING
 
 Step 1: Store Fruit and Color as facts.
 
@@ -727,7 +728,7 @@ Step 7: Stop.
 
 Experiment No 24:Best First Search Algorithm using Prolog
 
-Algorithm BEST_FIRST_SEARCH(Start, Goal)
+BEST_FIRST_SEARCH(Start, Goal)
 
 Step 1: OPEN ← [(Start, h(Start), [Start])]
 
@@ -760,7 +761,7 @@ Step 5: Stop.
 
 Experiment No 25:Medical Diagnosis Expert System using Prolog
 
-Algorithm MEDICAL_DIAGNOSIS
+MEDICAL_DIAGNOSIS
 
 Step 1: Store symptoms for each disease.
 
@@ -783,7 +784,7 @@ Step 6: Stop.
 
 Experiment No 26:Forward Chaining using Prolog
 
-Algorithm FORWARD_CHAINING
+FORWARD_CHAINING
 
 Step 1: Store the initial facts.
 
@@ -809,7 +810,7 @@ Step 8: Stop.
 
 Experiment No 27:Backward Chaining using Prolog
 
-Algorithm BACKWARD_CHAINING(Goal)
+BACKWARD_CHAINING(Goal)
 
 Step 1: If Goal is a known fact then
             Return True
@@ -855,7 +856,7 @@ Experiment No 28:Knowledge Representation using Prolog.
 
 Experiment No 29:Resolution Using Predicate Logic Using Prolog
 
-Algorithm RESOLUTION_PREDICATE_LOGIC()
+RESOLUTION_PREDICATE_LOGIC()
 
 Step 1: Enter the facts into the knowledge base.
 
@@ -906,4 +907,54 @@ Step 6: Display the inference results.
 Step 7: Stop.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Experiment No 30:Forward Chaining in Prolog
+
+START
+
+Create a list called KNOWN_FACTS
+
+Add all initial facts to KNOWN_FACTS
+
+REPEAT
+    NEW_FACT_ADDED = FALSE
+    FOR every rule in the knowledge base
+        IF all conditions of the rule are in KNOWN_FACTS
+           AND the conclusion is not already in KNOWN_FACTS
+        THEN
+            Add the conclusion to KNOWN_FACTS
+            Set NEW_FACT_ADDED = TRUE
+        END IF
+    END FOR
+
+UNTIL NEW_FACT_ADDED = FALSE
+
+Display all facts in KNOWN_FACTS
+
+STOP
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Experiment No 31:Backward Chaining in Prolog
+
+START
+Take a goal
+Check whether the goal is a known fact
+IF the goal is a fact
+    Display "Goal proved"
+ELSE
+    Find a rule that can produce the goal
+    IF such a rule exists
+        Check all conditions of the rule
+        IF all conditions are proved
+            Display "Goal proved"
+        ELSE
+            Display "Goal not proved"
+        END IF
+    ELSE
+        Display "Goal not proved"
+    END IF
+END IF
+
+STOP
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
