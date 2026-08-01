@@ -890,8 +890,11 @@ Marcus tried to assassinate Caesar.
 Step 2: Define the rules.
 
 Every man is a person.
+
 Every Pompeian is a Roman.
+
 Anyone who tries to assassinate someone is not loyal to that person.
+
 Every Roman who is not loyal to Caesar hates Caesar.
 
 Step 3: Load the knowledge base into Prolog.
