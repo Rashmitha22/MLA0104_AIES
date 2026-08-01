@@ -722,6 +722,7 @@ Step 6: When no more matching facts exist,
         Display false.
 
 Step 7: Stop.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 24:Best First Search Algorithm using Prolog
@@ -754,6 +755,7 @@ Step 3: While OPEN is not empty do
 Step 4: Return "No path found."
 
 Step 5: Stop.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 25:Medical Diagnosis Expert System using Prolog
@@ -802,6 +804,7 @@ Step 6: Repeat until no new facts can be derived
 Step 7: Display whether the goal is proved.
 
 Step 8: Stop.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment No 27:Backward Chaining using Prolog
@@ -824,7 +827,75 @@ Step 4: If all premises are proved then
         Else
             Return False
         End If
-
 Step 5: Stop
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Experiment No 28:Knowledge Representation using Prolog.
+
+1.Start the program.
+2.Define the rule that John likes every food.
+3.Define the food items (apple and vegetable).
+4.Define that John likes peanuts.
+5.Define that Mary eats everything Anil eats.
+6.Define that Anil eats peanuts and is alive.
+Define the rule that anything eaten by someone and not killed is food.
+Execute queries to verify the knowledge base.
+Stop.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Experiment No 29:Resolution Using Predicate Logic Using Prolog
+
+Algorithm RESOLUTION_PREDICATE_LOGIC()
+
+Step 1: Enter the facts into the knowledge base.
+
+Marcus is a man.
+Marcus is a Pompeian.
+Caesar is a ruler.
+Marcus tried to assassinate Caesar.
+
+Step 2: Define the rules.
+
+Every man is a person.
+Every Pompeian is a Roman.
+Anyone who tries to assassinate someone is not loyal to that person.
+Every Roman who is not loyal to Caesar hates Caesar.
+
+Step 3: Load the knowledge base into Prolog.
+
+Step 4: Execute the query.
+
+loyal(marcus, caesar).
+
+If Marcus is loyal to Caesar then
+
+Return True
+
+Else
+
+Return False
+
+End If
+
+Step 5: Execute the query.
+
+hates(marcus, caesar).
+
+If Marcus hates Caesar then
+
+Return True
+
+Else
+
+Return False
+
+End If
+
+Step 6: Display the inference results.
+
+Step 7: Stop.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
