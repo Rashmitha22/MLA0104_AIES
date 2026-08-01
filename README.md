@@ -760,6 +760,7 @@ Step 3: While OPEN is not empty do
                 Return Path.
             End If
             If CurrentNode is not in VISITED then
+            
                 Add CurrentNode to VISITED.
                 Generate all adjacent nodes.
                 For each adjacent node do
