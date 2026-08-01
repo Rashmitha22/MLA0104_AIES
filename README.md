@@ -204,6 +204,7 @@ Greedy_Best_First_Search(Graph, Heuristic, Start, Goal)
 
 5. While OPEN is not empty do
        Remove the node Current having the smallest heuristic value
+   
        If Current is already Visited then
    
            Continue
@@ -280,10 +281,11 @@ ALPHA_BETA(
 )
 
 1. If Depth = 0 OR Node is a terminal node then
+   
        Return UtilityValue(Node)
    End If
 
-2. If IsMaximizingPlayer = True then
+3. If IsMaximizingPlayer = True then
        BestValue = -∞
        For each Child of Node do
    
