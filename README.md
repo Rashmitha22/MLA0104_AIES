@@ -1,6 +1,8 @@
-# MLA0104_AIES
+ # MLA0104_AIES
 
-EXPERIMENT NO:1 (Breadth-First Search)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EXPERIMENT NO:1 Breadth-First Search in python.
 
 Breadth_First_Search(G, Start)
 
@@ -27,7 +29,7 @@ Step 6: Stop
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-EXPERIMENT NO:2 (Depth-First Search)
+EXPERIMENT NO:2 (Depth-First Search)in python.
 
 Depth_First_Search(G, Start)
 
@@ -50,7 +52,7 @@ Step 3: Stop
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-EXPERIMENT NO 3: Uniform Cost Search (UCS)
+EXPERIMENT NO 3: Uniform Cost Search (UCS)in python.
 
 Uniform_Cost_Search(Graph, Start, Goal)
 
@@ -92,7 +94,7 @@ Uniform_Cost_Search(Graph, Start, Goal)
 8. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 4: Water Jug Problem
+Experiment No 4: Water Jug Problem in python.
 
 Water_Jug_Problem(Jug1Capacity, Jug2Capacity, Target)
 
@@ -138,7 +140,7 @@ Water_Jug_Problem(Jug1Capacity, Jug2Capacity, Target)
    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No-5: A* Search Algorithm
+Experiment No-5: A* Search Algorithm in python.
 
 A_Star_Search(Graph, Heuristic, Start, Goal)
 
@@ -182,7 +184,7 @@ A_Star_Search(Graph, Heuristic, Start, Goal)
 7. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 6: Greedy Best-First Search
+Experiment No 6: Greedy Best-First Search in python.
 
 Greedy_Best_First_Search(Graph, Heuristic, Start, Goal)
 
@@ -223,7 +225,7 @@ Greedy_Best_First_Search(Graph, Heuristic, Start, Goal)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 7: Minimax Algorithm
+Experiment No 7: Minimax Algorithm in python.
 
 MINIMAX(Node, Depth, IsMaximizingPlayer)
 
@@ -258,7 +260,7 @@ MINIMAX(Node, Depth, IsMaximizingPlayer)
 4. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 8: Alpha–Beta Pruning
+Experiment No 8: Alpha–Beta Pruning in python.
 
 ALPHA_BETA(
     Node,
@@ -314,7 +316,7 @@ ALPHA_BETA(
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 9:Forward Chaining
+Experiment No 9:Forward Chaining in python.
 
 FORWARD_CHAINING(Facts, Rules, Goal)
 
@@ -346,7 +348,7 @@ FORWARD_CHAINING(Facts, Rules, Goal)
 5. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 10: Backward Chaining
+Experiment No 10: Backward Chaining in python.
 
 BACKWARD_CHAINING(Goal, Facts, Rules, Visited)
 
@@ -386,7 +388,7 @@ BACKWARD_CHAINING(Goal, Facts, Rules, Visited)
 7. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 11: N-Queen Problem
+Experiment No 11: N-Queen Problem in python.
 
 N_QUEENS(Board, Row, N)
 
@@ -422,7 +424,7 @@ Algorithm IS_SAFE(Board, Row, Column, N)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 12: Cryptarithmetic Problem
+Experiment No 12: Cryptarithmetic Problem in python.
 
 SOLVE_CRYPTARITHMETIC(Word1, Word2, Result)
 
@@ -462,7 +464,7 @@ SOLVE_CRYPTARITHMETIC(Word1, Word2, Result)
 8. Stop
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 13: Map Coloring Problem
+Experiment No 13: Map Coloring Problem in python.
 
 MAP_COLORING(Graph, Colors, VertexIndex)
 
@@ -567,8 +569,9 @@ Step 4: If the planet is found then
             Display its details.
         Else
             Display "Planet not found."
-
+           
 Step 5: Stop.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Experiment No 18:Towers of Hanoi using Prolog
 
@@ -782,7 +785,7 @@ Step 6: Stop.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 26:Forward Chaining using Prolog
+Experiment No 26:Forward Chaining -1 using Prolog
 
 FORWARD_CHAINING
 
@@ -808,7 +811,7 @@ Step 8: Stop.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Experiment No 27:Backward Chaining using Prolog
+Experiment No 27:Backward Chaining -1 using Prolog
 
 BACKWARD_CHAINING(Goal)
 
@@ -907,7 +910,7 @@ Step 6: Display the inference results.
 Step 7: Stop.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Experiment No 30:Forward Chaining in Prolog
+Experiment No 30:Forward Chaining-2 in Prolog
 
 START
 
@@ -933,7 +936,7 @@ Display all facts in KNOWN_FACTS
 STOP
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Experiment No 31:Backward Chaining in Prolog
+Experiment No 31:Backward Chaining-2 in Prolog
 
 START
 Take a goal
