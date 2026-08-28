@@ -44,15 +44,6 @@ This project implements a rule-based expert system using SWI-Prolog for prelimin
 Faults = [imbalance].
 ```
 
-## Repository Contents
-- `machine_fault_expert.pl` – complete Prolog knowledge base and inference logic
-- `README.md` – project documentation
-- `test_queries.txt` – six test cases and expected outputs
-- `GITHUB_UPLOAD_INSTRUCTIONS.txt` – simple upload steps
-- `screenshots/README.txt` – filenames to use for real SWI-Prolog execution screenshots
 
-## Important
-The screenshots folder is intentionally left for genuine SWI-Prolog execution screenshots. Do not upload fabricated execution images.
 
-## Author
-Rashmitha Senthil Kumar
+
