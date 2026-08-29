@@ -1,0 +1,20 @@
+% Run these queries one at a time in SWI-Prolog or SWISH.
+
+repeated_login_failures(alice).
+brute_force_attempt(alice).
+suspicious_login(alice).
+compromised_account(alice).
+privilege_misuse(alice).
+possible_data_exfiltration(alice).
+high_risk_account(alice).
+critical_threat(alice).
+recommend(alice, Action).
+all_recommendations(alice, Actions).
+explain_critical_threat(alice).
+diagnose(alice).
+critical_threat(bob).
+forward_chain(alice, FinalFacts).
+brute_force_attempt(charlie).
+recommend(charlie, Action).
+possible_data_exfiltration(david).
+critical_threat(david).
