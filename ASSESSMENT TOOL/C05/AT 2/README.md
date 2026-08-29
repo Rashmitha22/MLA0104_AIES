@@ -56,9 +56,6 @@ Real SWISH output shown: `Fault = bearing_wear`
 Additional query: `scenario(6), forward_chain(m6, Faults).`
 Real SWISH output: `Faults = [bearing_wear, lubrication_failure]`
 
-## Screenshots
-The `screenshots` folder contains genuine screenshots cropped from the user's actual SWISH execution session. No generated console screenshot is presented as real execution evidence.
-
 ## Technology Used
 - SWI-Prolog / SWISH
 - Prolog
@@ -71,5 +68,4 @@ The `screenshots` folder contains genuine screenshots cropped from the user's ac
 ## Main Program
 `machine_fault_expert.pl`
 
-## Author
-Rashmitha Senthil Kumar
+
