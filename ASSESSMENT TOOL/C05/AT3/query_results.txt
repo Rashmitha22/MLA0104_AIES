@@ -1,0 +1,29 @@
+$ python run_validation.py
+Cybersecurity Threat Detection - Real Validation Run
+Knowledge base: cybersecurity_expert.pl
+
+?- repeated_login_failures(alice).
+true.    [PASS]
+
+?- brute_force_attempt(alice).
+true.    [PASS]
+
+?- compromised_account(alice).
+true.    [PASS]
+
+?- privilege_misuse(alice).
+true.    [PASS]
+
+?- possible_data_exfiltration(alice).
+true.    [PASS]
+
+?- critical_threat(alice).
+true.    [PASS]
+
+?- critical_threat(bob).
+false.    [PASS]
+
+?- all_recommendations(alice, Actions).
+Actions = [isolate_device, reset_credentials, review_access_logs].    [PASS]
+
+FINAL RESULT: PASS (8/8 checks)
