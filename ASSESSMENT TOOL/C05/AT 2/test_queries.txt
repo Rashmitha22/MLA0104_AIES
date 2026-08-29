@@ -1,0 +1,9 @@
+TEST QUERIES
+
+scenario(1), forward_chain(m1, Faults).
+scenario(2), verify_fault(m2, misalignment).
+scenario(3), recommendation(m3, Fault, Action).
+scenario(4), forward_chain(m4, Faults).
+scenario(5), forward_chain(m5, Faults).
+scenario(6), recommendation(m6, Fault, Action).
+scenario(6), forward_chain(m6, Faults).
