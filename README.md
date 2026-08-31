@@ -985,4 +985,117 @@ STOP
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Experiment No:32
 
+Implementation of Decision Tree Classification using Python
+
+START
+
+1. Create the training dataset.
+
+2. Assign numerical values for:
+      Weather:
+          0 → Sunny
+          1 → Overcast
+          2 → Rain
+
+      Temperature:
+          0 → Hot
+          1 → Mild
+          2 → Cool
+
+3. Assign output values:
+      0 → No
+      1 → Yes
+
+4. Create a Decision Tree Classifier.
+
+5. Train the classifier using the training data.
+
+6. Get Weather value from the user.
+
+7. Get Temperature value from the user.
+
+8. Give the user input to the Decision Tree.
+
+9. Predict the result.
+
+10. If result = 1:
+        Display "YES, You can play"
+    Else:
+        Display "NO, You cannot play"
+
+STOP
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Experiment No:33
+
+Implementation of Feed Forward Propagation in a Neural Network using Python
+
+START
+
+1. Read input values x1 and x2.
+
+2. Read weights w1 and w2.
+
+3. Read bias b.
+
+4. Calculate weighted sum:
+
+      net = (x1 × w1) + (x2 × w2) + b
+
+5. Apply Sigmoid activation function:
+
+      output = 1 / (1 + e^(-net))
+
+6. Display the weighted sum.
+
+7. Display the final output.
+
+STOP
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Experiment No:34
+
+Implementation of Backward Propagation (Backpropagation) in a Neural Network using Python
+
+START
+
+1. Read input values x1 and x2.
+
+2. Read weights w1 and w2.
+
+3. Read bias b.
+
+4. Read the target output.
+
+5. Calculate weighted sum:
+
+      net = (x1 × w1) + (x2 × w2) + b
+
+6. Calculate predicted output using Sigmoid:
+
+      output = 1 / (1 + e^(-net))
+
+7. Calculate error:
+
+      error = target - output
+
+8. Calculate gradient:
+
+      gradient = error × output × (1 - output)
+
+9. Update the weights:
+
+      w1 = w1 + learning_rate × gradient × x1
+      w2 = w2 + learning_rate × gradient × x2
+
+10. Update the bias:
+
+      b = b + learning_rate × gradient
+
+11. Display the error and updated weights.
+
+STOP
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
